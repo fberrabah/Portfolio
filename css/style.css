@@ -332,12 +332,12 @@ footer.footer-area{
 }
 
 footer.footer-area .social h5{
-    font: normal 500 23px/ 30px var(--roboto);
+    font: normal 500 40px/ 50px var(--roboto);
 }
 
 footer.footer-area .social a > i{
-    font-size:22px;
-    padding: 2rem;
+    font-size:35px;
+    padding: 3rem;
     color: var(--border-color);
 }
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+x   x<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -52,16 +52,16 @@
                             <a class="nav-link" href="#">accueil <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">à propos</a>
+                            <a class="nav-link" href="#about">à propos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">services</a>
+                            <a class="nav-link" href="#services">services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://fberrabah.github.io/Portfolio/">portfolio</a>
+                            <a class="nav-link" href="#portfolio">portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="mailto:farid.berrabah@gmail.com">contact</a>
+                            <a class="nav-link" href="#contact">contact</a>
                         </li>
 
                     </ul>
@@ -87,7 +87,7 @@
                         <div class="site-buttons">
                             <div class="d-flex flex-row flex-wrap">
                                 <button type="button" class="btn button primary-button mr-4 text-uppercase">Engagez moi</button>
-                                <button type="button" class="btn button secondary-button text-uppercase">Voir mon cv</button>
+                                <button type="button" onclick=window.location.href='https://fberrabah.github.io/CV/' class="btn button secondary-button text-uppercase">Voir mon cv</button>
                             </div>
                         </div>
                     </div>
@@ -101,7 +101,7 @@
 
         <!--  ========================= About Area ==========================  -->
 
-        <section class="about-area">
+        <section class="about-area" id="about">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
@@ -122,7 +122,10 @@
                                 Vivement intèressé par le métier de developpeur informatique,je me suis formé durant 9 mois à l'ADEP de Roubaix en tant que analyste programmeur Python , ainsi je suis actuellement à la recherche d'un stage d'une durée de 6 mois.
                             </p>
                         </div>
-                        <button type="button" class="btn button primary-button text-uppercase">Télécharger cv</button>
+                        <button type="button" onclick=window.location.href='https://fberrabah.github.io/CV/' class="btn button primary-button text-uppercase">Télécharger cv</button>
+                    
+
+                        
                     </div>
                 </div>
             </div>
@@ -211,11 +214,11 @@
 
         <!--  ====================== Start Services Area =============================  -->
 
-        <section class="services-area">
+        <section class="services-area" id="services">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center services-title">
-                        <h1 class="text-uppercase title-text">Mes services</h1>
+                        <h1 class="text-uppercase title-text" >Mes services</h1>
                         <p class="para">
                             Developpeur Back end à la recherche d'une premieres expérience au sein de votre société! 
                         </p>
@@ -274,7 +277,7 @@
         <section class="project-area">
             <div class="container">
                 <div class="project-title pb-5">
-                    <h1 class="text-uppercase title-h1">Mes projet récents</h1>
+                    <h1 class="text-uppercase title-h1" id="portfolio">Mes projet récents</h1>
                 </div>
 
                 <div class="button-group">
@@ -372,7 +375,7 @@
                                 </a>
                             </div>
                             <div class="title py-4">
-                                <h4 class="text-uppercase">Gestionnaire de conférence</h4>
+                                <h4 class="text-uppercase">Gestionnaire</h4>
                                 <span class="text-secondary">Following, Portfolio</span>
                             </div>
                         </div>
@@ -448,30 +451,6 @@
         <!--  ======================== End About Me Area ==============================  -->
 
         <!--  ========================== Subscribe me Area ============================  -->
-        <section class="subscribe-us-area">
-            <div class="container subscribe">
-                <div class="row">
-                    <div class="col-lg-12 text-center subscribe-title">
-                        <h4 class="text-uppercase">Contactez moi</h4>
-                        <p class="para"></p>
-                    </div>
-                </div>
-                <div class="d-sm-flex justify-content-center">
-                    <form class="w-50">
-                        <div class="row d-flex flex-row flex-wrap">
-                            <div class="col input-textbox">
-                                <input type="text" id="txtemail" class="form-control" placeholder="Email">
-                            </div>
-                            <div class="col">
-                                <div class="btn-submit">
-                                    <button type="submit" class="btn btn-success float-right">envoyé moi un mail</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
         <!--  ========================== End Subscribe me Area ============================  -->
 
 
@@ -484,9 +463,9 @@
                 <div class="site-logo text-center py-4">
                     <a href="#"><img src="./img/logo.png" alt="logo"></a>
                 </div>
-                <div class="social text-center">
+                <div class="social text-center" id="contact">
                     <h5 class="text-uppercase">Suivez-moi</h5>
-                    <a href="mailto:farid.berrabah@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="mailto:farid.berrabah@gmail.com"><i class="fas fa-envelope fa-10x"></i></a>
                     <a href="https://github.com/fberrabah"><i class="fab fa-github-square"></i></a>
                     <a href="https://twitter.com/BerrabahFarid"><i class="fab fa-twitter"></i></a>
                     <a href="https://www.linkedin.com/in/farid-berrabah-095a24194/"><i class="fab fa-linkedin"></i></a>
