@@ -30,14 +30,14 @@
 .header_area .main-menu .navbar-nav .active a{
     background: var(--gradient-color);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: plum;
+    -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .header_area .main-menu .navbar-nav a:hover{
     background: var(--gradient-color);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: black;
     background-clip: text;
 }
 
@@ -293,7 +293,7 @@ footer.footer-area{
 }
 
 footer.footer-area .social h5{
-    font: normal 500 23px/ 30px ;
+    font: normal 500 23px/ 30px var(--roboto);
 }
 
 footer.footer-area .social a > i{
