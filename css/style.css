@@ -30,7 +30,7 @@
 .header_area .main-menu .navbar-nav .active a{
     background: var(--gradient-color);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: black;
     background-clip: text;
 }
 
